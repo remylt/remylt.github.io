@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Update repository tutorial
+how_to_update.md

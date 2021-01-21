@@ -12,7 +12,7 @@ const greeting = {
   username: 'Rémy Laot',
   title: "Hello, moi c'est Rémy",
   subTitle: emoji(
-    "Un développeur Full Stack 🚀 et Client Lourd 🪨 passionné, ayant une expérience dans la création d'applications Web avec Symfony / Reactjs / ApiPlatform et dans d'autres langages sympas."
+    "Un développeur Full Stack 🚀 et Client Lourd 🪨 passionné, ayant une expérience dans la création d'applications Web avec Symfony / Reactjs / ApiPlatform et également d'autres langages sympas."
   ),
   resumeLink:
     '',
@@ -25,10 +25,10 @@ const socialMediaLinks = {
   github: 'https://github.com/remylt',
   linkedin: 'https://fr.linkedin.com/in/rémy-laot',
   gmail: 'remy.laot@gmail.com',
-  // gitlab: 'https://gitlab.com/saadpasta',
-  // facebook: 'https://www.facebook.com/saad.pasta7',
-  // medium: 'https://medium.com/@saadpasta',
-  // stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  // gitlab: 'https://gitlab.com/',
+  // facebook: 'https://www.facebook.com/',
+  // medium: 'https://medium.com/',
+  // stackoverflow: 'https://stackoverflow.com/users/10422806/',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -58,12 +58,12 @@ https://fontawesome.com/icons?d=gallery */
       img: ''
     },
     {
-      skillName: 'css3',
+      skillName: 'CSS 3',
       fontAwesomeClassname: 'fab fa-css3-alt',
       img: ''
     },
     {
-      skillName: 'sass',
+      skillName: 'Sass',
       fontAwesomeClassname: 'fab fa-sass',
       img: ''
     },
@@ -83,7 +83,7 @@ https://fontawesome.com/icons?d=gallery */
       img: ''
     },
     {
-      skillName: 'Symfony / PHP',
+      skillName: 'PHP',
       fontAwesomeClassname: 'fab fa-php',
       img: ''
     },
@@ -115,8 +115,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: 'API Platform',
       fontAwesomeClassname: '',
-      img: require('./assets/images/api.png')
-,
+      img: require('./assets/images/api.png'),
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -127,6 +126,18 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
+    {
+      schoolName: 'Autodidaxie',
+      logo: require('./assets/images/autodic.png'),
+      subHeader: 'Auto-formation dans les langages du Web, Natif et DotNet (managé).',
+      duration: 'Depuis ~10ans',
+      desc: "Attrait pour la cyber-sécurité & malware enthousiast.",
+      descBullets: [
+        "WEB: Symfony 4 et 5, React <16.x, CRM, eCommerce, vitrine, Wordpress, Web-Design",
+        "NATIF: C, C++, WinAPI",
+        "DOTNET: C#, VB.NET, VBA",
+      ],
+    },
     {
       schoolName: 'Lycée Supérieur Bonaparte',
       logo: require('./assets/images/bts_logo.png'),
@@ -292,7 +303,7 @@ const achievementSection = {
         {
           name: 'View Google Assistant Action',
           url:
-            'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+            'https://assistant.google.com/',
         },
       ],
     },
@@ -329,7 +340,7 @@ const blogSection = {
         'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
     },
     {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
+      url: 'https://medium.com/',
       title: 'Why REACT is The Best?',
       description:
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
@@ -350,8 +361,8 @@ const talkSection = {
     {
       title: 'Build Actions For Google Assistant',
       subtitle: 'Codelab at GDG DevFest Karachi 2019',
-      slides_url: 'https://bit.ly/saadpasta-slides',
-      event_url: 'https://www.facebook.com/events/2339906106275053/',
+      slides_url: 'https://bit.ly/',
+      event_url: 'https://www.facebook.com/',
     },
   ],
   display: false, // Set false to hide this section, defaults to true
@@ -365,7 +376,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
+    'https://anchor.fm/codevcast/embed/episodes/',
   ],
   display: false, // Set false to hide this section, defaults to true
 };
